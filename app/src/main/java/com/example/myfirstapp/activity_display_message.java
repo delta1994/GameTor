@@ -1,6 +1,8 @@
 package com.example.myfirstapp;
 
+import android.content.ComponentName;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +15,6 @@ public class activity_display_message extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
-
-        /*Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.message1);
-        TextView textView = (TextView) findViewById(R.id.tv_1);
-        textView.setText(message);*/
     }
 
     public void btn_back23(View view){
@@ -30,7 +27,7 @@ public class activity_display_message extends AppCompatActivity {
         startActivity(intent);
     }
     public void btn_game2(View view){
-        Intent intent = new Intent(this, Game2.class);
-        startActivity(intent);
+        Intent intentweqw = getPackageManager().getLaunchIntentForPackage("first.com");
+        startActivity(intentweqw);
     }
 }

@@ -28,7 +28,8 @@
         app:layout_constraintVertical_bias="0.344" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button111"
+        style="@style/btn_blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btn_Login"
@@ -119,6 +120,7 @@
         android:onClick="btn_register"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
+        style="@style/btn_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
@@ -129,11 +131,11 @@
         app:layout_constraintVertical_bias="0.628" />
 
     <Button
-        android:id="@+id/btn_contect2222"
+        android:id="@+id/btnM_Contact212"
         android:layout_width="wrap_content"
-        android:onClick="btn_contectus"
         android:layout_height="wrap_content"
         android:text="Contact us."
+        style="@style/btn_blue"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"

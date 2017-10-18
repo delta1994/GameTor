@@ -8,4 +8,9 @@
     <color name="colorLavenderBlush">#FFF0F5</color>
     <color name="colorHotPink">#FF69B4</color>
     <color name="colorPaleGreen1">#9AFF9A</color>
+    <color name="ColorSkyblue1">#00ccff</color>
+    <color name="ColorSkyblue2">#00cccc</color>
+    <color name="Azure">#f0ffff</color>
+    <color name="Aquamarine">#7fffd4</color>
+    <color name="Hotpink">#ff69b4</color>
 </resources>

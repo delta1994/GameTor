@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/colorSeashell"
     android:layout_height="match_parent"
     tools:context="com.example.myfirstapp.Game1">
 
@@ -13,8 +14,9 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        style="@style/btn_blue"
         android:layout_marginTop="8dp"
-        android:onClick="btn_back23"
+        android:onClick="btn_1back23"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -95,6 +97,7 @@
         android:id="@+id/btn_next11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/btn_blue"
         android:text="send"
         android:layout_marginRight="148dp"
         app:layout_constraintRight_toRightOf="parent"
@@ -104,7 +107,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintVertical_bias="0.982" />
 
 </android.support.constraint.ConstraintLayout>

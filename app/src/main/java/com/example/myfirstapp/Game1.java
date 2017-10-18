@@ -216,4 +216,8 @@ public class Game1 extends AppCompatActivity {
         radChoice4 = (RadioButton) findViewById(R.id.raG_4);
         btnAnswer = (Button) findViewById(R.id.btn_next11);
     }
+    public void btn_1back23(View view){
+        Intent intent2662 = new Intent(this,activity_display_message.class);
+        startActivity(intent2662);
+    }
 }
